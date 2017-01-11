@@ -11,7 +11,7 @@ hiP = 0
 # create a double loop through the array using a 'while' nested in another 'while'
 # second loop subtracts each subsequent number in array from current element of first loop
 
-# start first loop
+# start first loop, you could also use an iterator to do this (ie - .each)
 while ind1 < prices.length do
   ind2 = ind1 + 1
   # start second loop
